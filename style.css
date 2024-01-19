@@ -1,0 +1,364 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;  
+}
+
+body{
+    background-color: black;
+}
+
+/* bgimage */
+.main{
+    background-image: url("Assets/images/bgimage.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 484px;
+    position: relative;
+    
+}
+.main .box{
+    height: 484px;
+    width: 100%;
+    opacity: 0.75;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+/* navbar */
+
+nav{
+    display: flex;
+    /* background-color: aquamarine; */
+    justify-content: space-between;
+    align-items: center;
+    height: 92px;
+    width: 60vw;
+    margin: auto;
+    z-index: 10;
+}
+
+.nav-img img{
+    width: 148px;
+    height: 40px;
+    z-index: 20;
+    filter:drop-shadow(red 0rem 0rem 8px);
+}
+
+button{
+    background-color: #e50914;
+    color: white;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.lang-btn{
+    width: 98px;
+    height: 24px;
+    padding:3px;
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+    color: white;
+}
+
+#lang-btn-select{
+    width: 98px;
+    height: 24px;
+    padding-left: 22px;
+    border: 2px solid #ffffff5e;
+    background-color: #00000066;
+    color: white;
+    border-radius: 4px;
+}
+
+.sign-btn{
+    height: 24px;
+    width: 75.99px;
+    padding: 3px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sign-btn:hover{
+    background-color: #b70c14dd;
+}
+/* end */
+
+/* hero-section */
+.hero-section{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    gap: 3px;
+    margin: 86px 194px 94px 228px;
+}
+
+#text1{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#text2{
+    font-size: 24px;
+    padding: 16px 0px;
+}
+
+#text3{
+    font-size: 20px;
+    padding-bottom: 10px;
+    
+}
+
+
+.hero-section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.hero-section1 input{
+    height: 34px;
+    width: 354px;
+    background-color: rgba(134, 132, 132, 0);
+    border: 2px solid gray;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.hero-section1 .text {
+    padding-left: 24px;
+    color: white;
+}
+
+
+.hero-section .main-btn{
+    font-size: 24px;
+    height: 36px;
+    width: 193px;
+    border-radius: 4px;
+    padding: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.main-btn:hover{
+    background-color: #b70c14dd;
+}
+
+.icon{
+    padding-left: 12px;
+}
+
+/* end */
+
+/* separation */
+
+.separation{
+    height: 11px;
+    background-color: #4141416a;
+    top: 45px;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    color: white;
+    height: 542px;
+}
+
+.firstimg{
+    position: relative;
+}
+
+.firstimg img{
+    width: 40vw;
+    position: relative;
+    z-index: 10;
+}
+
+.firstimg video{
+    position: absolute;
+    top: 95px;
+    right: 81px;
+    width: 452px;
+}
+
+.first > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.first > div :first-child{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.first > div :nth-child(2){
+    font-size: 24px;
+}
+
+.second{
+    padding-bottom: 30px;
+}
+
+.third video{
+    width: 384px;
+    top: 36px;
+    right: 113px;
+}
+/* faq */
+.faq{
+    height:925px ;
+    color: white;
+}
+
+.faq-desc{
+    font-size: 48px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.faq-box1{
+    width: 1110px;
+    height: 60px;
+    margin: auto;
+    background-color: #2d2d2d;
+    display: flex;
+    justify-content: space-between;
+    padding: 17px;
+    align-items: center;
+    font-size: 24px;
+    margin: 0 0 0.5rem 187px;
+    cursor: pointer;
+}
+
+.faq-box1:hover{
+    background-color: #2d2d2dcc;
+}
+
+.faq-box1-icon{
+    font-size: 53px;
+    
+}
+
+.sign-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 102px;
+    width: 920px;
+}
+
+
+.sign-section-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding-top: 34px;
+    
+}
+
+.sign-section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    width: 98vw;
+    margin: auto;
+    gap: 10px;
+}
+
+.sign-section-input{
+    height: 34px;
+    width: 354px;
+    background-color: rgba(134, 132, 132, 0);
+    border: 2px solid gray;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.sign-section-input-btn{
+    font-size: 22px;
+    height: 45px;
+    width: 193px;
+    border-radius: 4px;
+    /* padding: 3px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.sign-section-input-btn:hover{
+    background-color: #b70c14dd;
+}
+
+
+/* footer */
+footer{
+    height: 306px;
+    width: 1005;
+    background-color: black;
+    /* border-top: 7px solid gray; */
+    color: #cccccc;
+}
+
+.footer1{
+    padding-left: 69px;
+    line-height: 54px;
+    padding-top: 39px;
+}
+
+.footer2 li:hover{
+    cursor: pointer;
+}
+
+.footer2{
+    display:flex;
+    padding-left: 30px;
+    width: 1489px;
+    margin: auto;
+    height: 103px;
+    gap: 86px;
+}
+
+.footer2 li{
+    list-style: none;
+    padding-left: 40px;
+    text-decoration: underline;
+}
+
+.footer3{
+    padding-left: 69px;
+}
+
+.footer4{
+    height: 40px;
+    width: 114px;
+    padding-top: 10px;
+    padding-left: 69px;
+    font-size: 13px;
+}
